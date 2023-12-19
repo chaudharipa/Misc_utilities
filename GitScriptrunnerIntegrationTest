@@ -1,0 +1,10 @@
+import groovy.lang.script
+
+class GitScriptrunnerIntegrationTest extends Script {
+  GitScriptrunnerIntegrationTest(Binding binding) {
+    this.setBinding(binding)
+  }
+  def run() {
+    logger.info("Hello World")
+  }
+}
